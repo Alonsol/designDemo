@@ -4,7 +4,6 @@ import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 
 import java.io.FileOutputStream;
-import java.io.IOException;
 
 public class DiskCache implements ImageCache {
 
@@ -25,13 +24,7 @@ public class DiskCache implements ImageCache {
         } catch (Exception e) {
             e.printStackTrace();
         } finally {
-            if (fileOutputStream != null) {
-                try {
-                    fileOutputStream.close();
-                } catch (IOException e) {
-                    e.printStackTrace();
-                }
-            }
+            CloseUtils.closeQuietly(fileOutputStream);
         }
     }
 }
