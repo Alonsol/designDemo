@@ -1,4 +1,4 @@
-package com.alonsol.demo.DemeterDemo;
+package com.alonsol.demo.demeterdemo;
 
 
 public class Room {

@@ -1,4 +1,4 @@
-package com.alonsol.demo.DemeterDemo;
+package com.alonsol.demo.demeterdemo;
 
 import java.util.ArrayList;
 import java.util.List;

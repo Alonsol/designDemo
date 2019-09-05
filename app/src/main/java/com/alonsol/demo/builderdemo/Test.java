@@ -1,4 +1,4 @@
-package com.alonsol.demo.BuilderDemo;
+package com.alonsol.demo.builderdemo;
 
 public class Test {
 
