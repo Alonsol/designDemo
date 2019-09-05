@@ -1,4 +1,4 @@
-package com.alonsol.demo.clonedemo;
+package com.alonsol.demo.clonedemo1;
 
 
 public class Client {
