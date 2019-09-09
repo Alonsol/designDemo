@@ -13,7 +13,6 @@ public class Client {
         //设置关机状态
         tvController.powerOff();
         //调高音量，此时不会生效
-
         tvController.turnUp();
     }
 }
