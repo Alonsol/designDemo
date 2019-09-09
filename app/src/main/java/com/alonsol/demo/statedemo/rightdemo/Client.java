@@ -2,6 +2,7 @@ package com.alonsol.demo.statedemo.rightdemo;
 
 public class Client {
 
+
     public static void main(String[] args) {
 
         TvController tvController = new TvController();
