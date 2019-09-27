@@ -5,7 +5,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        tools:context=".orderdemo.demo3.DrawActivity">
+        tools:context=".design.orderdemo.demo3.DrawActivity">
     <Button
             android:id="@+id/btnRedo"
             android:layout_width="wrap_content"
